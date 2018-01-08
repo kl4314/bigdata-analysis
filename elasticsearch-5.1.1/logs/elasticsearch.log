@@ -1,0 +1,28 @@
+[2018-01-08T13:21:35,856][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T13:21:35,947][INFO ][o.e.e.NodeEnvironment    ] [8uAKgPX] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [407.9gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T13:21:35,948][INFO ][o.e.e.NodeEnvironment    ] [8uAKgPX] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T13:21:35,949][INFO ][o.e.n.Node               ] node name [8uAKgPX] derived from node ID [8uAKgPXITeeckopmrDJT6w]; set [node.name] to override
+[2018-01-08T13:21:35,951][INFO ][o.e.n.Node               ] version[5.1.1], pid[6382], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T13:21:36,901][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [aggs-matrix-stats]
+[2018-01-08T13:21:36,901][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [ingest-common]
+[2018-01-08T13:21:36,901][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [lang-expression]
+[2018-01-08T13:21:36,901][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [lang-groovy]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [lang-mustache]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [lang-painless]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [percolator]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [reindex]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [transport-netty3]
+[2018-01-08T13:21:36,902][INFO ][o.e.p.PluginsService     ] [8uAKgPX] loaded module [transport-netty4]
+[2018-01-08T13:21:36,903][INFO ][o.e.p.PluginsService     ] [8uAKgPX] no plugins loaded
+[2018-01-08T13:21:39,286][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T13:21:39,286][INFO ][o.e.n.Node               ] [8uAKgPX] starting ...
+[2018-01-08T13:21:39,532][INFO ][o.e.t.TransportService   ] [8uAKgPX] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T13:21:42,617][INFO ][o.e.c.s.ClusterService   ] [8uAKgPX] new_master {8uAKgPX}{8uAKgPXITeeckopmrDJT6w}{kf_9mXXWR1eVd_LnViQsvA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T13:21:42,644][INFO ][o.e.h.HttpServer         ] [8uAKgPX] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T13:21:42,644][INFO ][o.e.n.Node               ] [8uAKgPX] started
+[2018-01-08T13:21:42,649][INFO ][o.e.g.GatewayService     ] [8uAKgPX] recovered [0] indices into cluster_state
+[2018-01-08T13:21:50,129][INFO ][o.e.c.m.MetaDataCreateIndexService] [8uAKgPX] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-01-08T13:32:33,700][INFO ][o.e.c.m.MetaDataMappingService] [8uAKgPX] [.kibana/xf7wf-5LTwSVERmGYAc63g] create_mapping [index-pattern]
+[2018-01-08T13:49:14,088][INFO ][o.e.c.m.MetaDataCreateIndexService] [8uAKgPX] [logstash-2018.01.08] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2018-01-08T13:49:14,206][INFO ][o.e.c.m.MetaDataMappingService] [8uAKgPX] [logstash-2018.01.08/kHoWODiaQ6CqsIqRsv6-rg] create_mapping [django]
+[2018-01-08T13:55:46,651][INFO ][o.e.c.m.MetaDataMappingService] [8uAKgPX] [logstash-2018.01.08/kHoWODiaQ6CqsIqRsv6-rg] update_mapping [django]
