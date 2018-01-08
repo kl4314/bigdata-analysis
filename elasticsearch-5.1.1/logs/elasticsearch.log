@@ -1,0 +1,146 @@
+[2018-01-08T10:45:24,214][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T10:45:24,294][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [407.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T10:45:24,295][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T10:45:24,297][INFO ][o.e.n.Node               ] node name [Nctd8DH] derived from node ID [Nctd8DHhS3yZwVVnd8JZjg]; set [node.name] to override
+[2018-01-08T10:45:24,299][INFO ][o.e.n.Node               ] version[5.1.1], pid[4136], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T10:45:25,089][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [aggs-matrix-stats]
+[2018-01-08T10:45:25,090][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [ingest-common]
+[2018-01-08T10:45:25,090][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-expression]
+[2018-01-08T10:45:25,090][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-groovy]
+[2018-01-08T10:45:25,090][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-mustache]
+[2018-01-08T10:45:25,090][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-painless]
+[2018-01-08T10:45:25,091][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [percolator]
+[2018-01-08T10:45:25,091][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [reindex]
+[2018-01-08T10:45:25,091][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty3]
+[2018-01-08T10:45:25,091][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty4]
+[2018-01-08T10:45:25,092][INFO ][o.e.p.PluginsService     ] [Nctd8DH] no plugins loaded
+[2018-01-08T10:45:26,803][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T10:45:26,803][INFO ][o.e.n.Node               ] [Nctd8DH] starting ...
+[2018-01-08T10:45:26,970][INFO ][o.e.t.TransportService   ] [Nctd8DH] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T10:45:30,075][INFO ][o.e.c.s.ClusterService   ] [Nctd8DH] new_master {Nctd8DH}{Nctd8DHhS3yZwVVnd8JZjg}{8CHtcB0HQBeimqlKMQOHoA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T10:45:30,094][INFO ][o.e.h.HttpServer         ] [Nctd8DH] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T10:45:30,095][INFO ][o.e.n.Node               ] [Nctd8DH] started
+[2018-01-08T10:45:30,104][INFO ][o.e.g.GatewayService     ] [Nctd8DH] recovered [0] indices into cluster_state
+[2018-01-08T10:50:32,984][INFO ][o.e.c.m.MetaDataCreateIndexService] [Nctd8DH] [filebeat-2018.01.08] creating index, cause [auto(bulk api)], templates [filebeat], shards [5]/[1], mappings [_default_]
+[2018-01-08T10:50:33,289][INFO ][o.e.c.m.MetaDataMappingService] [Nctd8DH] [filebeat-2018.01.08/TZw4dnfoTG-QvrkrI7PVTQ] create_mapping [doc]
+[2018-01-08T10:51:34,422][INFO ][o.e.c.m.MetaDataCreateIndexService] [Nctd8DH] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2018-01-08T10:51:45,632][INFO ][o.e.c.m.MetaDataMappingService] [Nctd8DH] [.kibana/3cYe_3eCQnq6cOBGIoa5nw] create_mapping [index-pattern]
+[2018-01-08T10:55:34,252][INFO ][o.e.c.m.MetaDataMappingService] [Nctd8DH] [.kibana/3cYe_3eCQnq6cOBGIoa5nw] update_mapping [config]
+[2018-01-08T10:55:42,449][INFO ][o.e.c.m.MetaDataMappingService] [Nctd8DH] [.kibana/3cYe_3eCQnq6cOBGIoa5nw] create_mapping [search]
+[2018-01-08T10:56:14,812][INFO ][o.e.n.Node               ] [Nctd8DH] stopping ...
+[2018-01-08T10:56:14,851][INFO ][o.e.n.Node               ] [Nctd8DH] stopped
+[2018-01-08T10:56:14,851][INFO ][o.e.n.Node               ] [Nctd8DH] closing ...
+[2018-01-08T10:56:14,864][INFO ][o.e.n.Node               ] [Nctd8DH] closed
+[2018-01-08T11:00:17,676][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T11:00:17,783][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [407.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T11:00:17,784][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T11:00:17,801][INFO ][o.e.n.Node               ] node name [Nctd8DH] derived from node ID [Nctd8DHhS3yZwVVnd8JZjg]; set [node.name] to override
+[2018-01-08T11:00:17,803][INFO ][o.e.n.Node               ] version[5.1.1], pid[4245], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T11:00:18,774][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [aggs-matrix-stats]
+[2018-01-08T11:00:18,774][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [ingest-common]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-expression]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-groovy]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-mustache]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-painless]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [percolator]
+[2018-01-08T11:00:18,775][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [reindex]
+[2018-01-08T11:00:18,776][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty3]
+[2018-01-08T11:00:18,776][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty4]
+[2018-01-08T11:00:18,776][INFO ][o.e.p.PluginsService     ] [Nctd8DH] no plugins loaded
+[2018-01-08T11:00:21,084][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T11:00:21,084][INFO ][o.e.n.Node               ] [Nctd8DH] starting ...
+[2018-01-08T11:00:21,512][INFO ][o.e.t.TransportService   ] [Nctd8DH] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T11:00:24,627][INFO ][o.e.c.s.ClusterService   ] [Nctd8DH] new_master {Nctd8DH}{Nctd8DHhS3yZwVVnd8JZjg}{A3Yy2_jHSJy6_qDbYiRMFg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T11:00:24,686][INFO ][o.e.h.HttpServer         ] [Nctd8DH] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T11:00:24,686][INFO ][o.e.n.Node               ] [Nctd8DH] started
+[2018-01-08T11:00:24,875][INFO ][o.e.g.GatewayService     ] [Nctd8DH] recovered [2] indices into cluster_state
+[2018-01-08T11:00:25,228][INFO ][o.e.c.r.a.AllocationService] [Nctd8DH] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[filebeat-2018.01.08][4], [filebeat-2018.01.08][1]] ...]).
+[2018-01-08T11:02:07,880][INFO ][o.e.n.Node               ] [Nctd8DH] stopping ...
+[2018-01-08T11:02:07,921][INFO ][o.e.n.Node               ] [Nctd8DH] stopped
+[2018-01-08T11:02:07,922][INFO ][o.e.n.Node               ] [Nctd8DH] closing ...
+[2018-01-08T11:02:07,931][INFO ][o.e.n.Node               ] [Nctd8DH] closed
+[2018-01-08T11:02:58,958][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T11:02:59,022][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [407.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T11:02:59,022][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T11:02:59,041][INFO ][o.e.n.Node               ] node name [Nctd8DH] derived from node ID [Nctd8DHhS3yZwVVnd8JZjg]; set [node.name] to override
+[2018-01-08T11:02:59,043][INFO ][o.e.n.Node               ] version[5.1.1], pid[4297], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T11:02:59,821][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [aggs-matrix-stats]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [ingest-common]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-expression]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-groovy]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-mustache]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-painless]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [percolator]
+[2018-01-08T11:02:59,822][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [reindex]
+[2018-01-08T11:02:59,823][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty3]
+[2018-01-08T11:02:59,823][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty4]
+[2018-01-08T11:02:59,823][INFO ][o.e.p.PluginsService     ] [Nctd8DH] no plugins loaded
+[2018-01-08T11:03:02,288][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T11:03:02,291][INFO ][o.e.n.Node               ] [Nctd8DH] starting ...
+[2018-01-08T11:03:02,546][INFO ][o.e.t.TransportService   ] [Nctd8DH] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T11:03:05,621][INFO ][o.e.c.s.ClusterService   ] [Nctd8DH] new_master {Nctd8DH}{Nctd8DHhS3yZwVVnd8JZjg}{d5-MlgznRgazbSZ_JkFgqQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T11:03:05,645][INFO ][o.e.h.HttpServer         ] [Nctd8DH] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T11:03:05,645][INFO ][o.e.n.Node               ] [Nctd8DH] started
+[2018-01-08T11:03:05,874][INFO ][o.e.g.GatewayService     ] [Nctd8DH] recovered [2] indices into cluster_state
+[2018-01-08T11:03:06,196][INFO ][o.e.c.r.a.AllocationService] [Nctd8DH] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2018-01-08T11:08:49,912][INFO ][o.e.n.Node               ] [Nctd8DH] stopping ...
+[2018-01-08T11:08:49,943][INFO ][o.e.n.Node               ] [Nctd8DH] stopped
+[2018-01-08T11:08:49,944][INFO ][o.e.n.Node               ] [Nctd8DH] closing ...
+[2018-01-08T11:08:49,962][INFO ][o.e.n.Node               ] [Nctd8DH] closed
+[2018-01-08T11:10:00,640][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T11:10:00,724][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [407.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T11:10:00,725][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T11:10:00,751][INFO ][o.e.n.Node               ] node name [Nctd8DH] derived from node ID [Nctd8DHhS3yZwVVnd8JZjg]; set [node.name] to override
+[2018-01-08T11:10:00,754][INFO ][o.e.n.Node               ] version[5.1.1], pid[4356], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T11:10:01,696][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [aggs-matrix-stats]
+[2018-01-08T11:10:01,697][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [ingest-common]
+[2018-01-08T11:10:01,698][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-expression]
+[2018-01-08T11:10:01,698][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-groovy]
+[2018-01-08T11:10:01,698][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-mustache]
+[2018-01-08T11:10:01,698][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-painless]
+[2018-01-08T11:10:01,699][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [percolator]
+[2018-01-08T11:10:01,699][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [reindex]
+[2018-01-08T11:10:01,699][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty3]
+[2018-01-08T11:10:01,700][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty4]
+[2018-01-08T11:10:01,701][INFO ][o.e.p.PluginsService     ] [Nctd8DH] no plugins loaded
+[2018-01-08T11:10:04,099][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T11:10:04,102][INFO ][o.e.n.Node               ] [Nctd8DH] starting ...
+[2018-01-08T11:10:04,389][INFO ][o.e.t.TransportService   ] [Nctd8DH] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T11:10:07,467][INFO ][o.e.c.s.ClusterService   ] [Nctd8DH] new_master {Nctd8DH}{Nctd8DHhS3yZwVVnd8JZjg}{EmVy79qETi6NNKXonZZZqw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T11:10:07,544][INFO ][o.e.h.HttpServer         ] [Nctd8DH] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T11:10:07,544][INFO ][o.e.n.Node               ] [Nctd8DH] started
+[2018-01-08T11:10:07,713][INFO ][o.e.g.GatewayService     ] [Nctd8DH] recovered [2] indices into cluster_state
+[2018-01-08T11:10:08,043][INFO ][o.e.c.r.a.AllocationService] [Nctd8DH] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[filebeat-2018.01.08][3]] ...]).
+[2018-01-08T11:11:47,139][INFO ][o.e.c.m.MetaDataMappingService] [Nctd8DH] [.kibana/3cYe_3eCQnq6cOBGIoa5nw] create_mapping [visualization]
+[2018-01-08T11:54:03,961][INFO ][o.e.n.Node               ] [Nctd8DH] stopping ...
+[2018-01-08T11:54:04,019][INFO ][o.e.n.Node               ] [Nctd8DH] stopped
+[2018-01-08T11:54:04,019][INFO ][o.e.n.Node               ] [Nctd8DH] closing ...
+[2018-01-08T11:54:04,030][INFO ][o.e.n.Node               ] [Nctd8DH] closed
+[2018-01-08T11:54:07,854][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-08T11:54:07,922][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [408.5gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2018-01-08T11:54:07,923][INFO ][o.e.e.NodeEnvironment    ] [Nctd8DH] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-01-08T11:54:07,939][INFO ][o.e.n.Node               ] node name [Nctd8DH] derived from node ID [Nctd8DHhS3yZwVVnd8JZjg]; set [node.name] to override
+[2018-01-08T11:54:07,941][INFO ][o.e.n.Node               ] version[5.1.1], pid[4718], build[5395e21/2016-12-06T12:36:15.409Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-08T11:54:08,962][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [aggs-matrix-stats]
+[2018-01-08T11:54:08,962][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [ingest-common]
+[2018-01-08T11:54:08,963][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-expression]
+[2018-01-08T11:54:08,963][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-groovy]
+[2018-01-08T11:54:08,963][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-mustache]
+[2018-01-08T11:54:08,963][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [lang-painless]
+[2018-01-08T11:54:08,964][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [percolator]
+[2018-01-08T11:54:08,964][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [reindex]
+[2018-01-08T11:54:08,964][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty3]
+[2018-01-08T11:54:08,964][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded module [transport-netty4]
+[2018-01-08T11:54:08,965][INFO ][o.e.p.PluginsService     ] [Nctd8DH] loaded plugin [repository-s3]
+[2018-01-08T11:54:10,874][INFO ][o.e.n.Node               ] initialized
+[2018-01-08T11:54:10,875][INFO ][o.e.n.Node               ] [Nctd8DH] starting ...
+[2018-01-08T11:54:11,141][INFO ][o.e.t.TransportService   ] [Nctd8DH] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-08T11:54:14,218][INFO ][o.e.c.s.ClusterService   ] [Nctd8DH] new_master {Nctd8DH}{Nctd8DHhS3yZwVVnd8JZjg}{_0Zkql5ZTJ-1ua9tKKOaoA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-01-08T11:54:14,238][INFO ][o.e.h.HttpServer         ] [Nctd8DH] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-08T11:54:14,238][INFO ][o.e.n.Node               ] [Nctd8DH] started
+[2018-01-08T11:54:14,443][INFO ][o.e.g.GatewayService     ] [Nctd8DH] recovered [2] indices into cluster_state
+[2018-01-08T11:54:14,905][INFO ][o.e.c.r.a.AllocationService] [Nctd8DH] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[filebeat-2018.01.08][3]] ...]).
+[2018-01-08T12:52:15,786][INFO ][o.e.n.Node               ] [Nctd8DH] stopping ...
+[2018-01-08T12:52:15,861][INFO ][o.e.n.Node               ] [Nctd8DH] stopped
+[2018-01-08T12:52:15,862][INFO ][o.e.n.Node               ] [Nctd8DH] closing ...
+[2018-01-08T12:52:15,869][INFO ][o.e.n.Node               ] [Nctd8DH] closed
